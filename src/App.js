@@ -4,7 +4,7 @@ import Categories from "./Categories";
 import items from "./data";
 
 function App() {
-  const [filtered, setFiltered] = useState(items);
+  const [filtered, setFiltered] =  useState(items);
 
   const handleCategoryChange = (c) => {
     if (c === "All") return setFiltered(items);
